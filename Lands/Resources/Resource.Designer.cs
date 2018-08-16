@@ -104,5 +104,7 @@ namespace Lands.Resources {
                 return ResourceManager.GetString("Rememberme", resourceCulture);
             }
         }
+
+        public static string Menu { get; internal set; }
     }
 }
